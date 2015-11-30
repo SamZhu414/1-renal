@@ -1,0 +1,128 @@
+body{
+
+}
+video{
+    width: 100%;
+    height: 100%;
+}
+.video-div{
+    height: 140px;
+}
+.video-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 765px;
+    margin-top: 0px;
+}
+.left-video-title{
+    width: 250px;
+    height: 500px;
+    padding: 2px;
+    float: left;
+    border: #555555 solid 1px;
+    background: #FFFFFF;
+}
+.pageNumber{
+    position: absolute;
+    font-size: 13px;
+    right: 1px;
+    bottom: 1px;
+    padding: 5px;
+    height:15px;
+    background: #444444;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    border: #FFFFFF solid 1px;
+}
+.sectionTitle{
+    overflow-x: auto;
+    float: left;
+    width: 250px;
+    height: 357px;
+    margin-top: 2px;
+    background: #eeeeee;
+}
+.sectionTitle ul{
+    margin: 0px;
+    padding: 0px;
+}
+.sectionTitle ul li
+{
+   width:230px;
+    text-align: left;
+    padding: 5px 0 5px 0px;
+    font-size: 12px;
+    list-style: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-bottom: #999999 solid 1px;
+    border-bottom-style: dotted;
+}
+
+.sectionTitle ul li a
+{
+    width:170px;
+    color:#000000;
+    display: block;
+    cursor: pointer;
+}
+.title_div_left
+{
+     
+    padding: 5px;
+    float: left;
+    width:170px;
+}
+.title_div_right{
+    padding: 5px 0 5px 10px;
+    font-size: 11px;
+    width: 40px;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.courseDiv{
+    float: left;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #FFFFFF;
+    border: #555555 solid 1px;
+    padding: 2px;
+    margin-left: 2px;
+}
+
+.audio-container{
+    margin: 0 auto;
+    text-align: center;
+    width: 1000px;
+}
+
+.left-audio{
+
+}
+.audioCourse{
+    position: relative;
+    width: 757px;
+    height: 555px;
+    background: #FFFFFF;
+    border: #555555 solid 1px;
+    padding: 2px;
+    margin-left: 2px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.audioPageNumber{
+    bottom: 56px;
+}
+
+.vjs-mute-control, .vjs-volume-control, .vjs-loading-spinner{
+    display: none;
+}
+.set-li-color{
+    background-color: #cccccc;
+}
+.switch-div-control{
+    display: none;
+}
