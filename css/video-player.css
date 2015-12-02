@@ -113,10 +113,6 @@ video{
     text-align: center;
 }
 
-.audioPageNumber{
-    bottom: 56px;
-}
-
 .vjs-mute-control, .vjs-volume-control, .vjs-loading-spinner{
     display: none;
 }
@@ -125,4 +121,9 @@ video{
 }
 .switch-div-control{
     display: none;
+}
+
+.audio-page-number{
+    right: 1px;
+    bottom:56px!important;
 }
